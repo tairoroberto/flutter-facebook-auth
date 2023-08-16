@@ -11,7 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.0.0
-  flutter_secure_storage: ^8.0.0
+  flutter_secure_storage:
+    git:
+      url: https://github.com/tairoroberto/flutter_secure_storage
+      path: flutter_secure_storage/
   flutter_facebook_auth_platform_interface: ^5.0.0
 
 
